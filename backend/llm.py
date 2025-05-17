@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import os
 
 # Set your Together.ai API key (best via environment variable)
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY", "tgp_v1_8qKhYCTahA1_HV5ETYkOKwpNZhVLNrkHVrnxUulKg-8")
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY", "your_secret_key")
 
 llm = ChatOpenAI(
     base_url="https://api.together.xyz/v1",
